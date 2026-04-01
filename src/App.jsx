@@ -84,7 +84,7 @@ useEffect(() => {
         setBestScore(moves);
       }
     }
-  }, [allMatched]);
+  }, [allMatched, moves, bestScore]);
 
   /* ===== RESTART ===== */
   const restartGame = () => {
